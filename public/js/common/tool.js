@@ -21,7 +21,7 @@ define(["jquery", "datepicker", "datepicker_cn"],function ($) {
   function setDate(ele) {
     $(ele).datepicker({
       format: 'yyyy-mm-dd',
-      startDate: '-10d',
+      // startDate: '-10d',
       endDate: "0d",
       autoclose: true,
       language: 'zh-CN',

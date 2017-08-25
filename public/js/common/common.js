@@ -55,7 +55,10 @@ define(["jquery", "template", "nprogress", "jquery_cookie"], function ($, templa
     //将链接的地址和已经高亮的绑定
     var pathObj = {
       "/teacher/add": "/teacher/list",
-      "/settings": "/"
+      "/settings": "/",
+      "/repass":"/",
+      "/category/add":"/category/list",
+      
     }
    
     pathname = pathObj[pathname] || pathname;
