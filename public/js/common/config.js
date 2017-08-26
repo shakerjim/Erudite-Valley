@@ -4,8 +4,10 @@
 require.config({
   baseUrl:"/public/",
   paths:{
+    jquery_form:"assets/jquery-form/jquery.form",
     jquery:"assets/jquery/jquery",
     jquery_cookie:"assets/jquery-cookie/jquery.cookie",
+    jquery_region:"assets/jquery-region/jquery.region",
     template:"assets/artTemplate/template-web",
     bootstrap:"assets/bootstrap/js/bootstrap",
     tool:"js/common/tool",
@@ -13,8 +15,8 @@ require.config({
     datepicker_cn:"assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min",
     nprogress:"assets/nprogress/nprogress",
     uploadify:"assets/uploadify/jquery.uploadify",
-    jquery_region:"assets/jquery-region/jquery.region",
     ckeditor:"assets/ckeditor/ckeditor",
+    Jcrop:"assets/Jcrop/js/Jcrop"
   },
 
   shim:{
@@ -29,6 +31,9 @@ require.config({
     },
     ckeditor:{
       exports: 'CKEDITOR'
+    },
+    Jcrop:{
+      deps:["jquery"]
     }
   }
 

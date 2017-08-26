@@ -58,6 +58,7 @@ define(["jquery", "template", "nprogress", "jquery_cookie"], function ($, templa
       "/settings": "/",
       "/repass":"/",
       "/category/add":"/category/list",
+      "/course/step1":"/course/add"
       
     }
    
