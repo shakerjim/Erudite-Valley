@@ -16,7 +16,8 @@ require.config({
     nprogress:"assets/nprogress/nprogress",
     uploadify:"assets/uploadify/jquery.uploadify",
     ckeditor:"assets/ckeditor/ckeditor",
-    Jcrop:"assets/Jcrop/js/Jcrop"
+    Jcrop:"assets/Jcrop/js/Jcrop",
+    echarts:"assets/echarts/echarts.min"
   },
 
   shim:{
